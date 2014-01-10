@@ -1,12 +1,35 @@
-h1 {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 80px;
-	font-weight: 100;
-	text-align: center;
-	margin-top: 20px;
+body {
+  font-family: 'Average', serif;
+  text-align: center;
+}
+
+h1#logo{
+  width: 150px;
+  height: 150px;
+  background: url(../img/profile.png);
+  text-indent: -999em;
+  font-size: 60px;
+  margin-top: 60px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+h2 {
+  font-size:70px;
+  margin-top: 20px;
+}
+
+h2 span {
+  color: #2ecc71;
 }
 
 #profile {
-	width: 150px;
-	margin: 30px auto;
+  background-color: #ecf0f1;
+  height: 400px;
+}
+
+#wrapper {
+  width: 980px;
+  position: relative;
+  margin: 0 auto;
 }
