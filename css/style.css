@@ -1,6 +1,7 @@
 body {
-  font-family: 'Average', serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
+  font-weight: 300;
 }
 
 h1#logo{
@@ -9,27 +10,86 @@ h1#logo{
   background: url(../img/profile.png);
   text-indent: -999em;
   font-size: 60px;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 0;
   display: inline-block;
 }
 
-h2 {
-  font-size:70px;
-  margin-top: 20px;
-}
-
-h2 span {
-  color: #2ecc71;
-}
-
 #profile {
   background-color: #ecf0f1;
-  height: 400px;
+  height: 420px;
+  background: url(../img/profile-background.png) repeat-x bottom #ecf0f1;
 }
 
-#wrapper {
+#profile .wrapper {
   width: 980px;
   position: relative;
   margin: 0 auto;
+}
+
+#profile h2 {
+  font-size:60px;
+  margin-top: 20px;
+  color: #34495e;
+  font-weight: 100;
+}
+
+#profile h2 span {
+  color: #2ecc71;
+  font-weight: 300;
+}
+
+#profile h3 {
+  font-size: 20px;
+  color: #34495e;
+}
+
+#git-cheat {
+  height: 500px;
+  background: #2c3e50;
+}
+
+#git-cheat .wrapper {
+  width: 980px;
+  position: relative;
+  margin: 0 auto;
+}
+
+#git-cheat h2 {
+  font-size:40px;
+  margin-top: 20px;
+  color: #3498db;
+  font-weight: 100;
+  display: inline-block;
+}
+
+#git-cheat img {
+  display: block;
+  margin: 40px auto;
+}
+
+#footer {
+  height: 250px;
+  background: url(../img/footer-background.gif) repeat-x top  #27ae60;
+}
+
+#footer .badge {
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+  text-indent: -999em;
+  margin: 70px 20px;
+}
+
+#footer .badge:hover {
+  -webkit-animation: zoomUp 0.3s ease-in-out;
+  animation: zoomUp 0.3s ease-in-out;
+}
+
+#footer .github {
+  background: url(../img/github-icon.png);
+}
+
+#footer .twitter {
+  background: url(../img/twitter-icon.png);
 }
