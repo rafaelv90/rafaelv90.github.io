@@ -16,7 +16,6 @@ h1#logo{
 }
 
 #profile {
-  background-color: #ecf0f1;
   height: 420px;
   background: url(../img/profile-background.png) repeat-x bottom #ecf0f1;
 }
@@ -46,7 +45,7 @@ h1#logo{
 
 #git-cheat {
   height: 500px;
-  background: #2c3e50;
+  background: url(../img/git-background.gif) no-repeat bottom center #2c3e50;
   overflow: hidden;
 }
 
@@ -83,17 +82,13 @@ h1#logo{
 #git-cheat .git-cheat-1 {
 	background: url(../img/git-cheat-1.jpg);
 	top: 150px;
-	left: 220px;
-
-  -webkit-transform: perspective(700px) rotateY(5deg);
+	left: 210px;
 }
 
 #git-cheat .git-cheat-2 {
 	background: url(../img/git-cheat-2.jpg);
 	top: 260px;
 	left: 300px;
-
-  -webkit-transform: perspective(700px) rotateY(5deg);
 }
 
 #webgoal {
@@ -128,6 +123,7 @@ h1#logo{
 
 #blog {
   height: 400px;
+  background: url(../img/blog-background.gif) repeat;
 }
 
 #blog h2 {
