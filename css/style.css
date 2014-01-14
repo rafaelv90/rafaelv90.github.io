@@ -96,9 +96,74 @@ h1#logo{
   -webkit-transform: perspective(700px) rotateY(5deg);
 }
 
+#webgoal {
+  height: 500px;
+  background: #ecf0f1;
+  overflow: hidden;
+}
+
+#webgoal h2 {
+  font-size:40px;
+  margin-top: 20px;
+  color: #666;
+  font-weight: 100;
+  display: inline-block;
+}
+
+#webgoal h3 {
+  color: #7f8c8d;
+}
+
+#webgoal h3 a {
+  color: #A0CB3B;
+}
+
+#webgoal .webgoal-logo {
+  width: 850px;
+  height: 445px;
+  display: inline-block;
+  background: url(../img/webgoal-logo.png);
+  margin: 40px 0;
+}
+
+#blog {
+  height: 400px;
+}
+
+#blog h2 {
+  font-size:40px;
+  margin-top: 20px;
+  color: #666;
+  font-weight: 100;
+  display: inline-block;
+}
+
+#blog h2 span {
+  color: #e74c3c;
+  font-weight: 300;
+  font-family: 'Dancing Script', cursive;
+  font-size: 55px;
+}
+
+#blog h3 {
+  color: #666;
+}
+
+#blog h3 a {
+  color: #e74c3c;
+}
+
+#blog .blog-logo {
+  width: 237px;
+  height: 188px;
+  display: inline-block;
+  background: url(../img/blog-logo.png);
+  margin: 40px 0;
+}
+
 #footer {
   height: 250px;
-  background: url(../img/footer-background.gif) repeat-x top  #27ae60;
+  background: #27ae60;
 }
 
 #footer .badge {
@@ -106,7 +171,7 @@ h1#logo{
   height: 128px;
   display: inline-block;
   text-indent: -999em;
-  margin: 70px 20px;
+  margin: 60px 20px;
 }
 
 #footer .github {
