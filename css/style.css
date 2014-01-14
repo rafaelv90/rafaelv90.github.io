@@ -47,6 +47,7 @@ h1#logo{
 #git-cheat {
   height: 500px;
   background: #2c3e50;
+  overflow: hidden;
 }
 
 #git-cheat .wrapper {
@@ -63,9 +64,36 @@ h1#logo{
   display: inline-block;
 }
 
-#git-cheat img {
-  display: block;
-  margin: 40px auto;
+#git-cheat h3 {
+	color: #FFF;
+}
+
+#git-cheat h3 a {
+	color: #f1c40f;
+}
+
+#git-cheat .sheet {
+	width: 475px;
+	height: 500px;
+	display: block;
+  position: absolute;
+  box-shadow: 0px 0px 3px #555;
+}
+
+#git-cheat .git-cheat-1 {
+	background: url(../img/git-cheat-1.jpg);
+	top: 150px;
+	left: 220px;
+
+  -webkit-transform: perspective(700px) rotateY(5deg);
+}
+
+#git-cheat .git-cheat-2 {
+	background: url(../img/git-cheat-2.jpg);
+	top: 260px;
+	left: 300px;
+
+  -webkit-transform: perspective(700px) rotateY(5deg);
 }
 
 #footer {
@@ -79,11 +107,6 @@ h1#logo{
   display: inline-block;
   text-indent: -999em;
   margin: 70px 20px;
-}
-
-#footer .badge:hover {
-  -webkit-animation: zoomUp 0.3s ease-in-out;
-  animation: zoomUp 0.3s ease-in-out;
 }
 
 #footer .github {
