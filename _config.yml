@@ -1,0 +1,4 @@
+name: Rafael Valério
+markdown: redcarpet
+pygments: true
+permalink: /blog/:title
