@@ -1,4 +1,7 @@
+# Site settings
 name: Rafael Valério
 markdown: redcarpet
-pygments: true
-permalink: /blog/:title
+
+# Build settings
+markdown: kramdown
+permalinks: /blog/:title
