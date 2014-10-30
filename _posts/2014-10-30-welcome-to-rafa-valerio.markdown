@@ -4,7 +4,7 @@ title:  "Welcome to Rafa Valério!"
 date:   2014-10-30 08:26:25
 categories: rafa first
 tags: featured
-image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.jpg
+image: /assets/article_images/2014-10-30-welcome-to-rafa-valerio/desktop.jpg
 ---
 I've been working with software development for 5+ years. Through these years, I have faced many problems and challenges, and for each one of them, a solution was created.
 
