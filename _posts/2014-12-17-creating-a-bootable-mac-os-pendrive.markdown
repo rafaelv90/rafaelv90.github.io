@@ -27,7 +27,7 @@ Open your favorite terminal app, and type:
 
 We called the *createinstallmedia* tool, sending two parameters:
 
-1. *volume*: This is a path to the volume (USB flash drive) that you be used
+1. *volume*: This is a path to the volume (USB flash drive) that will be used
 2. *applicationpath*: This path leads to the installer app itself, in my case "Install OS X Yosemite.app"
 
 **Installing Mac OS X from flash drive**
