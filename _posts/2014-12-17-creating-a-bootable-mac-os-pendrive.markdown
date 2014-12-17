@@ -34,7 +34,7 @@ We called the *createinstallmedia* tool, sending two parameters:
 
 All you need to do is reboot your Mac OS X, with the USB flash drive plugged in, and keep the **option** key pressed down.
 
-Then you'll be able to choose your new flash drive as a boot option, and follow the instrutions on screen.
+Then you'll be able to choose your new flash drive as a boot option, and follow the instructions on screen.
 
 Have questions? Call me at Twitter: [@rafaelvalerio][twitter].
 
