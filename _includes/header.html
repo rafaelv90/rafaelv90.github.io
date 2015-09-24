@@ -1,5 +1,16 @@
-<!-- header start -->
-
-<a href="{{ site.url }}" class="logo-readium"><span class="logo" style="background-image: url({{ site.logo }})"></span></a>
-
-<!-- header end -->
+<div class="row">
+  <section class="header">
+    <div class="brand">
+      <a href="/" title="Rafael Valério"><img src="/assets/logo.svg" /></a>
+    </div>
+    <div class="menu">
+      <ul>
+        {% for page_item in site.pages %}
+          {% if page_item.title %}
+            <li><a href="{{page_item.permalink}}" {% if page_item.permalink == page.url %}class="active"{% endif %}>{{page_item.title}}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+</div>
