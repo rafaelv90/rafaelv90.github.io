@@ -7,7 +7,7 @@
       <ul>
         {% for page_item in site.pages %}
           {% if page_item.title %}
-            <li><a href="{{page_item.permalink}}" {% if page_item.permalink == page.url %}class="active"{% endif %}>{{page_item.title}}</a></li>
+            <li><a href="{{page_item.permalink}}" {% if page.url contains page_item.permalink %}class="active"{% endif %}>{{page_item.title}}</a></li>
           {% endif %}
         {% endfor %}
       </ul>

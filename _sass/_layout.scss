@@ -75,6 +75,13 @@ section.header {
   }
 }
 
+.post-list {
+  .post-link {
+    color: #555;
+    font-size: 1.4em;
+  }
+}
+
 .post {
   margin: 40px auto;
   width: 750px;
@@ -85,9 +92,42 @@ section.header {
 
   .post-header {
     .post-title {
-      color: #666;
-      font-family: 'Slabo 27px', serif;
+      color: #555;
+      font-size: 2em;
     }
+
+    .post-meta {
+      font-size: 0.8em;
+      color: #888;
+    }
+  }
+
+  .post-content {
+    p {
+      font-size: 0.9em;
+      padding: 0;
+      margin: 0 0 20px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.page {
+  margin: 40px auto;
+  width: 750px;
+
+  @include media-query($on-mobile) {
+      width: 100%;
+  }
+
+  img {
+    width: 150px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
   }
 }
 
