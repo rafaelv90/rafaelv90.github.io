@@ -7,6 +7,7 @@ body {
 
 section.header {
   padding: 0 20px;
+  overflow: hidden;
 
   .brand {
     display: block;
@@ -25,7 +26,7 @@ section.header {
         backface-visibility: hidden;
 
         &:hover {
-          transition: all 0.2s ease-in-out;
+          transition: all 0.2s;
           transform: scale(0.9);
           opacity: 0.8;
         }
@@ -50,67 +51,13 @@ section.header {
         }
 
         a {
-          display: inline-block;
-          border: 2px solid #000;
-          border-radius: 2px;
-          padding: 10px;
-          color: #000;
-          text-transform: uppercase;
-          font-size: 0.9em;
-          transition: background 0.3s;
+          @extend .button;
 
           @include media-query($on-mobile) {
               width: 100%;
           }
-
-          &:hover, &.active {
-            text-decoration: none;
-            background: #000;
-            color: #fff;
-            transition: background 0.3s;
-          }
         }
       }
-    }
-  }
-}
-
-.post-list {
-  .post-link {
-    color: #555;
-    font-size: 1.4em;
-  }
-}
-
-.post {
-  margin: 40px auto;
-  width: 750px;
-
-  @include media-query($on-mobile) {
-      width: 100%;
-  }
-
-  .post-header {
-    .post-title {
-      color: #555;
-      font-size: 2em;
-    }
-
-    .post-meta {
-      font-size: 0.8em;
-      color: #888;
-    }
-  }
-
-  .post-content {
-    p {
-      font-size: 0.9em;
-      padding: 0;
-      margin: 0 0 20px;
-    }
-
-    img {
-      width: 100%;
     }
   }
 }
