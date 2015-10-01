@@ -3,6 +3,7 @@ layout: post
 title:  "New site + new blog"
 date:   2015-09-28 00:34:24
 categories: update
+author: Rafa Valério
 ---
 New blog + site for a fresh start! :)
 
