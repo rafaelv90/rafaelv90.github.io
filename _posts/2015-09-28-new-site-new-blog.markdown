@@ -4,22 +4,12 @@ title:  "New site + new blog"
 date:   2015-09-28 00:34:24
 categories: update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+New blog + site for a fresh start! :)
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+![Fresh start!](/assets/posts/fresh-start.jpg)
 
-Jekyll also offers powerful support for code snippets:
+After a while with a pre-build theme and some posts, I decided to create my new site from scratch, giving all the support needed for mobile users!
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Besides improving my skills on web development, I'm using this site as a digital porfolio for my work. [Check it][portfolio] to see what I've already done!
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+[portfolio]: /portfolio
