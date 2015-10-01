@@ -1,53 +1,13 @@
+# Site settings
+title: Rafael Valério - web designer
+email: rafael.v90@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Rafael Valério - web designer e desenvolvedor front-end
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://rafavalerio.com" # the base hostname & protocol for your site
+twitter_username: rafaelvalerio
+github_username:  rafaelv90
+permalink: /blog/:year/:month/:day/:title/
+
 # Build settings
 markdown: kramdown
-highlighter: pygments
-
-# Site settings
-title: "Rafa Valério"
-description: > # this means to ignore newlines until "email:"
-   Stuff that I found, related to development. Or not.
-
-email: rafael.v90@gmail.com
-#blog logo
-logo: "/assets/images/rv_logo.png"
-# blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
-
-name: 'Rafael Valério'
-author: 'Rafael Valério'
-author_image: "/assets/images/author.png"
-
-paginate:	5
-
-url: "http://rafavalerio.com" # the base hostname & protocol for your site
-baseurl: ""
-
-# social icons and sharing options
-social:
-  - icon:	twitter
-    url:	https://twitter.com/rafaelvalerio
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
-
-  - icon: github
-    url:  https://github.com/rafaelv90
-    desc: Fork me on github
-    share_url:
-    share_title:
-    share_link:
-
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: //www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
-
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:

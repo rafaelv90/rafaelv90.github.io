@@ -4,10 +4,13 @@ title: About
 permalink: /about/
 ---
 
-My name is Rafael Valério. I've been working with web development for 5+ years.
+![Rafa Valério](/assets/author.png)
 
-Now I feel that it's time to share solutions and tips I find everyday.
+Hello!
 
-Feel free to contribute and get in touch!
+I'm Rafael Valério, a web designer / developer!
 
-Say hi at [@rafaelvalerio](http://twitter.com/rafaelvalerio).
+I like to create beautiful and minimalist websites and apps.
+You can check my [portfolio](/portfolio/) and see some of my work!
+
+Call me on Twitter at [@rafaelvalerio](https://twitter.com/{{site.twitter_username}}) if you need something!
